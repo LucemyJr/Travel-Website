@@ -1,9 +1,19 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar';
+import MainBanner from '../MainBanner/MainBanner';
+import ContactImg from '../../assets/4.jpg'
+
 
 const Contact = () => {
   return (
     <>
-      <h1>This is Contact</h1>
+      <Navbar />
+      <MainBanner 
+        cName = "main-banner-mid"
+        MainBannerImg = {ContactImg}
+        tittle = "Contact"
+        btnClass = "hide"
+      />
     </>
   )
 }
