@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import MainBanner from '../MainBanner/MainBanner';
 import ServiceImg from '../../assets/3.jpg'
+import Footer from '../Footer/Footer';
+import Trip from '../Trip/Trip';
 
 
 const Service = () => {
@@ -14,6 +16,8 @@ const Service = () => {
         tittle = "Service"
         btnClass = "hide"
       />
+      <Trip/>
+      <Footer/>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 import MainBanner from '../MainBanner/MainBanner';
 import HomeImg from '../../assets/1.jpg'
 import Destination from '../Destination/Destination';
@@ -19,8 +20,10 @@ const Home = () => {
         btnClass = "show"
       />
       <Destination/>
-
+      
       <Trip/>
+
+      <Footer/>
     </>
   )
 }

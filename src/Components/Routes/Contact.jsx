@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import MainBanner from '../MainBanner/MainBanner';
 import ContactImg from '../../assets/4.jpg'
+import Footer from '../Footer/Footer';
 
 
 const Contact = () => {
@@ -14,6 +15,8 @@ const Contact = () => {
         tittle = "Contact"
         btnClass = "hide"
       />
+
+      <Footer/>
     </>
   )
 }

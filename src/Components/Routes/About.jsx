@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import MainBanner from '../MainBanner/MainBanner';
 import AboutImg from '../../assets/2.jpg'
+import Footer from '../Footer/Footer';
 
 
 const About = () => {
@@ -14,6 +15,8 @@ const About = () => {
         tittle = "About Us"
         btnClass = "hide"
       />
+
+      <Footer/>
     </>
   )
 }
