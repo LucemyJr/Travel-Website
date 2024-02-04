@@ -11,7 +11,7 @@ const Service = () => {
       <MainBanner 
         cName = "main-banner-mid"
         MainBannerImg = {ServiceImg}
-        tittle = "About Us"
+        tittle = "Service"
         btnClass = "hide"
       />
     </>

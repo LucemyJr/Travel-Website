@@ -11,6 +11,7 @@ const About = () => {
       <MainBanner 
         cName = "main-banner-mid"
         MainBannerImg = {AboutImg}
+        tittle = "About Us"
         btnClass = "hide"
       />
     </>

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import MainBanner from '../MainBanner/MainBanner';
 import HomeImg from '../../assets/1.jpg'
+import Destination from '../Destination/Destination';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         url = "/"
         btnClass = "show"
       />
+      <Destination/>
     </>
   )
 }
