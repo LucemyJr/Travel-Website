@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import MainBanner from '../MainBanner/MainBanner';
 import HomeImg from '../../assets/1.jpg'
 import Destination from '../Destination/Destination';
+import Trip from '../Trip/Trip';
 
 const Home = () => {
   return (
@@ -18,6 +19,8 @@ const Home = () => {
         btnClass = "show"
       />
       <Destination/>
+
+      <Trip/>
     </>
   )
 }
