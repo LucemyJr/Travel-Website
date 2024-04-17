@@ -3,7 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import MainBanner from '../MainBanner/MainBanner';
 import AboutImg from '../../assets/2.jpg'
 import Footer from '../Footer/Footer';
-
+import AboutSection from '../AboutSection/AboutSection';
 
 const About = () => {
   return (
@@ -15,7 +15,7 @@ const About = () => {
         tittle = "About Us"
         btnClass = "hide"
       />
-
+      <AboutSection/>
       <Footer/>
     </>
   )
